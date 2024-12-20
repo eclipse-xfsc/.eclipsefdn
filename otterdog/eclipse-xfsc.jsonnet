@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-xfsc') {
+orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
   settings+: {
     description: "",
     name: "XFSC Project",
