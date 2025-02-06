@@ -7,6 +7,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     web_commit_signoff_required: false,
     workflows+: {
       actions_can_approve_pull_request_reviews: false,
+      default_workflow_permissions: "write",
     },
   },
   _repositories+:: [
@@ -35,6 +36,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       description: "XFSC",
+      gh_pages_build_type: "legacy",
+      gh_pages_source_branch: "gh-pages",
+      gh_pages_source_path: "/docs",
       web_commit_signoff_required: false,
       workflows+: {
         default_workflow_permissions: "write",
