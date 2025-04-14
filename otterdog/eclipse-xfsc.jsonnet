@@ -1160,7 +1160,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     orgs.newRepo('bdd-executor'){
       description: "The BDD executor is an behave execution for Gherkin tests",
-      topics: ["bdd","gherkin","integration testing","test","python","behave"],
+      topics: ["bdd","gherkin","integration-testing","test","python","behave"],
       dependabot_alerts_enabled: false,
       allow_merge_commit: true,
       allow_update_branch: false,
