@@ -1136,7 +1136,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       ]
     },
     orgs.newRepo('workshops'){
-      topics:[react,oauth2,nats,ssi,oidc,nodered,verifiable-credentials,gaia-x,clearing-house,self-description,oid4vci,oid4vp,gaia-x-credentials,compliance-credential],
+      topics:["react","oauth2","nats","ssi","oidc","nodered","verifiable-credentials","gaia-x","clearing-house","self-description","oid4vci","oid4vp","gaia-x-credentials","compliance-credential"],
+      description: "This repository contains XFSC Workshop material and results",
+      homepage: "https://eclipse-xfsc.github.io/landingpage/",
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
@@ -1157,6 +1159,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       ]
     },
     orgs.newRepo('bdd-executor'){
+      description: "The BDD executor is an behave execution for Gherkin tests",
+      topics: ["bdd","gherkin","integration testing","test","python","behave"],
+      dependabot_alerts_enabled: false,
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
