@@ -1136,6 +1136,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       ]
     },
     orgs.newRepo('workshops'){
+      topics:[react,oauth2,nats,ssi,oidc,nodered,verifiable-credentials,gaia-x,clearing-house,self-description,oid4vci,oid4vp,gaia-x-credentials,compliance-credential],
       allow_merge_commit: true,
       allow_update_branch: false,
       delete_branch_on_merge: false,
