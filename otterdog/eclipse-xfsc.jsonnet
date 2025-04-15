@@ -15,6 +15,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('aries-integration-tests'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"Integration tests for Organizational Credential Manager on behave basis (Hyperledger/Credo)",
+      topics:["aries","integration","bdd","gherkin","behave","python","ocm"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -35,6 +37,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('aries-ssi-agent'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"Hyperledger SSI Agent on Crede Framework Basis",
+      topics:["aries","ssi","agent","aries rfc","rfc","hyperleder","ocm","credo","animo"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -55,6 +59,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('cam'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"This project contains the reference implementation of the Gaia-X Continuous Automated Monitoring component.",
+      topics:["monitoring","microservice","continious","automated"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -75,6 +81,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('cloud-event-provider'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"This library is used for abstracting messaging. The purpose of this library shall be to decapsulate message bus technologies from their usage. So it's doesnt matter if nats, kafka or anything else supported is used.",
+      topics:["cloud-events","eventing"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -95,6 +103,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('configuration-service'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"The configuration service provides an simple http endpoint which provides straight forward config map values as json files. It predefines no ingress so you have to declare one in the values.yaml file under ingress section.",
+      topics:["configuration","kubernetes","config-map","rest"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -115,6 +125,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('credential-storage-service'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"The Storage Service is a service made for storing credentials and presentations. All content is stored cryptographically protected by a crypto engine",
+      topics:["json-ld","json","JWE","cassandra","credentials","VC","VP","Provenance Proof","Presentation Definition","DIF"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -135,6 +147,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('crypto-provider-core'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"This package is a library to abstract crypto providers for go. The providers can be loaded during startup by adding the respective module in the local folder.",
+      topics:["JWT","PEM","Random","EC-DSA","RSA","Encryption","Decryption","Signing","Verification"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -155,6 +169,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('crypto-provider-hashicorp-vault-plugin'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"This plugin provides key usage by using the hashicorp vault signing engine.",
+      topics:["JWT","PEM","Random","EC-DSA","RSA","Encryption","Decryption","Signing","Verification","Transit Engine","Hashicorp","Vault"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
