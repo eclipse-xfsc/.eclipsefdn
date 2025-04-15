@@ -236,7 +236,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
       description:"Crypto Provider service provides REST APIs for creating Verifiable Credentials (VC) and Verifiable Presentations (VP) in the W3C credential format. It also provides more generic endpoints for signing arbitrary data, for adding cryptographic proofs to existing VC/VP and for fetching public keys necessary for signature verification.",
-      topics:["JWT","PEM","Random","EC-DSA","RSA","Encryption","Decryption","Signing","Verification", "golang","crypto","VP","VC","DID Document","DID","JWKS","DID Configuration","X509"],
+      topics:["JWT","PEM","Random","EC-DSA","RSA","Encryption","Decryption","Signing","Verification", "golang","crypto","VP","VC","DID Document","DID","JWKS","DID Configuration","X509","TSA"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -543,6 +543,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('microservice-core-go'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"The microservice core is a small library which contains helper functions and basic setups for golang microservices. It's just a minimum set for messaging, rest and some helpers, but not so mightful as Goa",
+      topics:["gin","golang"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -563,6 +565,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('nats-message-library'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"This library contains default golang message structures and types which are used by the micro services as data contract for communication.",
+      topics:["golang","nats","messaging"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -583,6 +587,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('notarization-service'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"The purpose of the Notarization API is to provide an authorization officer a software component to attest given master data and transform it to a digital verifiable credential representation.",
+      topics:["java","quarkus","rabbit-mq","EIDAS","notarization","VC","VP","signing"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -603,6 +609,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('oid4-vci-authorization-bridge'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"The pre authorization provides the new grant type for the OID4VCI flow to support issuing operations with the pre authorization flow. This bridge can be later configured in the open id configuration under the type urn:ietf:params:oauth:grant-type:pre-authorized_code which is defined in the OID4VCI Spec ",
+      topics:["golang","VC","VP","OAuth2","OID4VCI","urn:ietf:params:oauth:grant-type:pre-authorized_code","Pre-Authorized Code"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -623,6 +631,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('oid4-vci-credential-retrieval-service'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"The pre authorization provides the new grant type for the OID4VCI flow to support issuing operations with the pre authorization flow. This bridge can be later configured in the open id configuration under the type urn:ietf:params:oauth:grant-type:pre-authorized_code which is defined in the OID4VCI Spec ",
+      topics:["golang","VC","VP","OAuth2","OID4VCI","OIDC"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1166,6 +1176,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('trusted-info-hub'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"Information Hub service is responsible for exporting and importing policy data wrapped in Verifiable Credentials and Verifiable Presentations.",
+      topics:["goa framework","goa","golang","W3C","VP","VC","TSA"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1231,7 +1243,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     orgs.newRepo('mobile-wallet'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
+      description:"Personal Credential Manager Mobile app",
+      topics:["PCM mobile","android","swift","kotlin"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1252,6 +1266,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('mobile-wallet-integration-tests'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"Personal Credential Manager Mobile Integration Tests",
+      topics:["PCM mobile","bdd"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1272,6 +1288,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('cloud-wallet-integration-tests'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"Personal Credential Manager Cloud Integration Tests",
+      topics:["PCM","bdd","gherkin","behave","python"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1292,6 +1310,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('cloud-wallet-plugin-backend-template'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"Personal Credential Manager Cloud Plugin backend template",
+      topics:["PCM","plugin","golang"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1312,6 +1332,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('cloud-wallet-plugin-core'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"Personal Credential Manager Cloud Frontend Plugin core",
+      topics:["PCM","plugin","golang"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1332,6 +1354,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('cloud-wallet-plugin-frontend-template'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"Personal Credential Manager Cloud Frontend Plugin template",
+      topics:["PCM","plugin","react"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1348,30 +1372,12 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
           deployment_branch_policy: "selected",
         },
       ]
-    },
-    orgs.newRepo('cloud-wallet-plugin-deployment'){
-      delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
-      allow_merge_commit: true,
-      allow_update_branch: false,
-      gh_pages_build_type: "legacy",
-      gh_pages_source_branch: "gh-pages",
-      gh_pages_source_path: "/",
-      workflows+: {
-        default_workflow_permissions: "write",
-      },
-      environments: [
-        orgs.newEnvironment('github-pages') {
-          branch_policies+: [
-            "gh-pages"
-          ],
-          deployment_branch_policy: "selected",
-        },
-      ]
-    },     
+    },  
     orgs.newRepo('cloud-wallet-account-service'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"Personal Credential Manager Cloud Account Service which manages the accounts for users.",
+      topics:["PCM"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1393,6 +1399,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('cloud-wallet-integration-tests'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"Personal Credential Manager Cloud Integration Tests",
+      topics:["PCM","behave","bdd","gherkin","selenium"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1413,6 +1421,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('cloud-wallet-plugin-discovery'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"Personal Credential Manager Cloud Wallet Plugin Discovery.",
+      topics:["PCM","kubernetes","k8s","discovery","kong"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1433,6 +1443,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('cloud-wallet-web-ui'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"Personal Credential Manager Cloud UI which implements a demo of a OID4VCI/VP cloud wallet.",
+      topics:["PCM","OID4VCI","VC","VP","OID4VP","react"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
