@@ -916,6 +916,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('sd-jwt-service'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"This service just creates SD-JWT encodings with disclosures and verifies it. Keypair is just a dummy one for signature, dont use it as standard and resign the token always.",
+      topics:["SD-JWT","Open Wallet Foundation","Selective Disclosure"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -936,6 +938,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('sd-schemas'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"This repository contains schema and documentation for developing compliant Gaia-X Credentials (formerly called Gaia-X Self-Descriptions / SDs).",
+      topics:["python","self-description"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -956,6 +960,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('sd-validation-api'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"API for validating Self Descriptions",
+      topics:["java","REST","self-description"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -975,7 +981,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     orgs.newRepo('ssi-jwt'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
+      description:"This library contains common JWT extensions for usage in SSI context.",
+      topics:["ssi","jwt","golang"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -996,6 +1004,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('ssi-vdr-core'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"Verifiable Data Registry provided an interface for storing Decentralised Identifiers (DID documents).The library uses plugin-based architecture, using it as a dependency requires additional steps.",
+      topics:["IPFS","VDR"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1016,6 +1026,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('ssi-vdr-ipfs'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"A plugin implementation of VerifiableDataRegistry interface using Interplanetary Filesystem for storing files. Used by VDR",
+      topics:["IPFS","VDR"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1035,7 +1047,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     orgs.newRepo('statuslist-service'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
+      description:"The status list service implements the basis for realizing the basic concept of a bit string  lists.",
+      topics:["Revocation","Open Wallet Foundation","JWT Statuslist","Bitstring","Statuslist 2021","golang"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1056,6 +1070,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('task-sheduler'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"The task service provides an HTTP interface for executing asynchronous (HTTP) Tasks and Task lists.",
+      topics:["TSA","Open Policy Agent"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1076,6 +1092,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('train-dns-trust-zone-manager'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"The DNS Zone Management is the component responsible for managing the DNS zone file and used for anchoring the trust framework DID information into the zone file.",
+      topics:["TRAIN","ESSIF","DNSSEC","DNS"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1096,6 +1114,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('train-integration-tests'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"This repo contains the TRAIN integration tests",
+      topics:["TRAIN","ESSIF","DNSSEC","DNS","behave","python","gherkin"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1115,7 +1135,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     orgs.newRepo('train-shared'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
+      description:"This repository contains java code shared between several TRAIN projects and used as Git Submodules. ",
+      topics:["TRAIN","ESSIF","DNSSEC","DNS"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1136,6 +1158,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('train-trust-framework-manager'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"XFSC Train Trust Framework Manager allows Trust Framework and Trust List Provision. TFM is responsioble for configuring and managing trust frameworks with its corresponding trust lists.",
+      topics:["TRAIN","ESSIF","DNSSEC","DNS"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1156,6 +1180,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     orgs.newRepo('train-trust-validator'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true, 
+      description:"TRAIN provides a trust management infrastructure for XFSC. Trusted Content Resolver service allows Trusted Framework Pointers resolution and verification.",
+      topics:["TRAIN","ESSIF","DNSSEC","DNS"],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
