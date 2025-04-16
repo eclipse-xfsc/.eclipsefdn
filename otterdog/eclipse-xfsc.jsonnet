@@ -1511,6 +1511,556 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
           deployment_branch_policy: "selected",
         },
       ]
+    },
+    {
+      "name": "portal-admin-service",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Verwaltet administrative Funktionen im XFSC-Portal.",
+      "topics": ["xfsc", "admin", "portal", "microservice", "typescript"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-article-service",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Bietet Artikel- und Content-Management für das XFSC-Portal.",
+      "topics": ["xfsc", "content", "article", "portal", "service", "microservice"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-claim-mapping-library",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Bibliothek zur Verwaltung von Claim-Mappings im XFSC-Portal.",
+      "topics": ["xfsc", "claims", "mapping", "library", "microservice"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-claim-mapping-service",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Verwaltet die Zuordnung von Claims im XFSC-Portal.",
+      "topics": ["xfsc", "claims", "mapping", "microservice", "identity"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-dashboard-service",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Stellt zentrale Übersichten und Dashboards im XFSC-Portal bereit.",
+      "topics": ["xfsc", "dashboard", "portal", "analytics", "microservice"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-demo",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Demo-Anwendung zum Simulieren externer Systeme für Tests im XFSC-Portal.",
+      "topics": ["xfsc", "demo", "test", "mock", "integration"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-did-management-service",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Verwaltet dezentrale Identitäten (DIDs) innerhalb des XFSC-Portals.",
+      "topics": ["xfsc", "did", "identity", "ssi", "microservice"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-discovery-service",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Ermöglicht das Auffinden von Föderationsressourcen innerhalb des XFSC-Portals.",
+      "topics": ["xfsc", "discovery", "search", "federation", "microservice"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-federated-catalogue-management",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Verwaltet föderierte Service-Kataloge innerhalb des XFSC-Portals.",
+      "topics": ["xfsc", "catalogue", "federation", "services", "management"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-infra-mesh",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Stellt Infrastrukturkomponenten für die Kommunikation und das Routing im XFSC-Portal bereit.",
+      "topics": ["xfsc", "infrastructure", "mesh", "network", "microservice"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-lcm-service",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Verwaltet Lebenszyklen von Föderationseinträgen im XFSC-Portal.",
+      "topics": ["xfsc", "lifecycle", "management", "federation", "service", "microservice"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-onboarding-service",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Unterstützt Organisationen beim Onboarding in das XFSC-Portal.",
+      "topics": ["xfsc", "onboarding", "organization", "identity", "microservice"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-policy-management-service",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Verwaltet Zugriffs- und Datenfreigaberichtlinien im XFSC-Portal.",
+      "topics": ["xfsc", "policy", "access-control", "data-sharing", "microservice"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-e2e-test-automation",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "End-to-End Testautomatisierung für das XFSC-Portal.",
+      "topics": ["xfsc", "testing", "automation", "e2e", "quality-assurance"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-frontend",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Das Web-Frontend des XFSC-Portals zur Nutzerinteraktion.",
+      "topics": ["xfsc", "frontend", "react", "typescript", "ui", "portal"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-integration",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Dient zur Integration und Koordination der XFSC-Portal-Komponenten.",
+      "topics": ["xfsc", "integration", "orchestration", "portal", "testing"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-pre-acceptance-testing",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Testumgebung zur Vorbereitung von Akzeptanztests im XFSC-Portal.",
+      "topics": ["xfsc", "testing", "pre-acceptance", "qa", "automation"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-principal-credential-creation-service",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Erstellt digitale Nachweise für Principals im XFSC-Portal.",
+      "topics": ["xfsc", "credentials", "ssi", "principal", "identity", "microservice"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-proof-management-service",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Verwaltet Prüfungsnachweise im Kontext von SSI im XFSC-Portal.",
+      "topics": ["xfsc", "ssi", "proofs", "identity", "verification", "microservice"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-resource-provision-demo",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Demonstriert die Bereitstellung von Ressourcen über das XFSC-Portal.",
+      "topics": ["xfsc", "resource-provisioning", "demo", "kubernetes", "infrastructure"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-self-description-management",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Verwaltet die Erstellung, Bearbeitung und Validierung von Selbstbeschreibungen im XFSC-Portal.",
+      "topics": ["xfsc", "self-description", "compliance", "validation", "management"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-self-description-service",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Bietet Schnittstellen zur Verwaltung von Selbstbeschreibungen im XFSC-Portal.",
+      "topics": ["xfsc", "self-description", "api", "ssi", "compliance", "microservice"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-sp-service",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Stellt Funktionen für Service Provider im XFSC-Portal bereit.",
+      "topics": ["xfsc", "service-provider", "sp", "federation", "microservice"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "portal-user-account-service",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Verwaltet Benutzerkonten und -daten im XFSC-Portal.",
+      "topics": ["xfsc", "user", "account", "identity", "keycloak", "microservice"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
+    },
+    {
+      "name": "aas",
+      "delete_branch_on_merge": true,
+      "web_commit_signoff_required": true,
+      "description": "Implementiert Authentifizierungs- und Autorisierungsdienste für das XFSC-Portal.",
+      "topics": ["xfsc", "authentication", "authorization", "iam", "keycloak", "security", "microservice"],
+      "allow_merge_commit": true,
+      "allow_update_branch": false,
+      "gh_pages_build_type": "legacy",
+      "gh_pages_source_branch": "gh-pages",
+      "gh_pages_source_path": "/",
+      "workflows": {
+        "default_workflow_permissions": "write"
+      },
+      "environments": [
+        {
+          "name": "github-pages",
+          "branch_policies": ["gh-pages"],
+          "deployment_branch_policy": "selected"
+        }
+      ]
     }
   ],
 } + {
