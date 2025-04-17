@@ -1559,7 +1559,6 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
             ]
         },
     orgs.newRepo('workshops'){
-      homepage:"",
       delete_branch_on_merge: true,
       web_commit_signoff_required: true,
       topics: [
@@ -1579,7 +1578,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 "compliance-credential"
             ],
       description: "This repository contains XFSC Workshop material and results",
-      homepage: "https://eclipse-xfsc.github.io/landingpage/",
+      homepage: "",
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
