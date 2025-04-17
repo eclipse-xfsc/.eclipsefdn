@@ -2631,7 +2631,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     ],
 } + {
   # snippet added due to 'https: //github.com/EclipseFdn/otterdog-configs/blob/main/blueprints/add-dot-github-repo.yml'
-  _repositories+: : [
+  _repositories+:  [
     orgs.newRepo('.github')
     ],
 }
