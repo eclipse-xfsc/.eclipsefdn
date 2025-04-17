@@ -1898,7 +1898,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-admin-service",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Verwaltet administrative Funktionen im XFSC-Portal.",
+                description: "Administrative functions for the portal",
                 topics: [
                 "xfsc",
                 "admin",
@@ -1928,7 +1928,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-article-service",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Bietet Artikel- und Content-Management f\u00fcr das XFSC-Portal.",
+                description: "Article and content management",
                 topics: [
                 "xfsc",
                 "content",
@@ -1959,7 +1959,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-claim-mapping-library",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Bibliothek zur Verwaltung von Claim-Mappings im XFSC-Portal.",
+                description: "Library for the claims management service",
                 topics: [
                 "xfsc",
                 "claims",
@@ -1989,7 +1989,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-claim-mapping-service",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Verwaltet die Zuordnung von Claims im XFSC-Portal.",
+                description: "Claims management service for portal protection",
                 topics: [
                 "xfsc",
                 "claims",
@@ -2019,7 +2019,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-dashboard-service",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Stellt zentrale \u00dcbersichten und Dashboards im XFSC-Portal bereit.",
+                description: "Provides a dashboard for the portal",
                 topics: [
                 "xfsc",
                 "dashboard",
@@ -2049,7 +2049,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-demo",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Demo-Anwendung zum Simulieren externer Systeme f\u00fcr Tests im XFSC-Portal.",
+                description: "Demo application for external systems.",
                 topics: [
                 "xfsc",
                 "demo",
@@ -2079,7 +2079,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-did-management-service",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Verwaltet dezentrale Identit\u00e4ten (DIDs) innerhalb des XFSC-Portals.",
+                description: "Provides a management of DIDs",
                 topics: [
                 "xfsc",
                 "did",
@@ -2109,7 +2109,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-discovery-service",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Erm\u00f6glicht das Auffinden von F\u00f6derationsressourcen innerhalb des XFSC-Portals.",
+                description: "Provides a portal discovery service",
                 topics: [
                 "xfsc",
                 "discovery",
@@ -2139,7 +2139,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-federated-catalogue-management",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Verwaltet f\u00f6derierte Service-Kataloge innerhalb des XFSC-Portals.",
+                description: "Manages the federated catalogue",
                 topics: [
                 "xfsc",
                 "catalogue",
@@ -2169,7 +2169,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-infra-mesh",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Stellt Infrastrukturkomponenten f\u00fcr die Kommunikation und das Routing im XFSC-Portal bereit.",
+                description: "Provides service mesh capabilities.",
                 topics: [
                 "xfsc",
                 "infrastructure",
@@ -2199,7 +2199,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-lcm-service",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Verwaltet Lebenszyklen von F\u00f6derationseintr\u00e4gen im XFSC-Portal.",
+                description: "Manages lifecyles of federation services.",
                 topics: [
                 "xfsc",
                 "lifecycle",
@@ -2230,7 +2230,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-onboarding-service",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Unterst\u00fctzt Organisationen beim Onboarding in das XFSC-Portal.",
+                description: "Supports organisations for portal onboarding",
                 topics: [
                 "xfsc",
                 "onboarding",
@@ -2260,7 +2260,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-policy-management-service",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Verwaltet Zugriffs- und Datenfreigaberichtlinien im XFSC-Portal.",
+                description: "Manages Access Policies for the portal",
                 topics: [
                 "xfsc",
                 "policy",
@@ -2290,7 +2290,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-e2e-test-automation",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "End-to-End Testautomatisierung f\u00fcr das XFSC-Portal.",
+                description: "End-to-End Test Automation for the XFSC-Portal.",
                 topics: [
                 "xfsc",
                 "testing",
@@ -2320,7 +2320,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-frontend",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Das Web-Frontend des XFSC-Portals zur Nutzerinteraktion.",
+                description: "A frontend for the xfsc portal",
                 topics: [
                 "xfsc",
                 "frontend",
@@ -2351,7 +2351,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-integration",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Dient zur Integration und Koordination der XFSC-Portal-Komponenten.",
+                description: "Service for the integration of xsfc portal",
                 topics: [
                 "xfsc",
                 "integration",
@@ -2381,7 +2381,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-pre-acceptance-testing",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Testumgebung zur Vorbereitung von Akzeptanztests im XFSC-Portal.",
+                description: "demo environment for xfsc portal",
                 topics: [
                 "xfsc",
                 "testing",
@@ -2411,7 +2411,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-principal-credential-creation-service",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Erstellt digitale Nachweise f\u00fcr Principals im XFSC-Portal.",
+                description: "Creates digital proofs for the portal",
                 topics: [
                 "xfsc",
                 "credentials",
@@ -2442,7 +2442,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-proof-management-service",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Verwaltet Pr\u00fcfungsnachweise im Kontext von SSI im XFSC-Portal.",
+                description: "Manages proofs and proof handlings",
                 topics: [
                 "xfsc",
                 "ssi",
@@ -2473,7 +2473,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-resource-provision-demo",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Demonstriert die Bereitstellung von Ressourcen \u00fcber das XFSC-Portal.",
+                description: "Demonstrates a resource provision",
                 topics: [
                 "xfsc",
                 "resource-provisioning",
@@ -2503,7 +2503,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-self-description-management",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Verwaltet die Erstellung, Bearbeitung und Validierung von Selbstbeschreibungen im XFSC-Portal.",
+                description: "Manages the creation, validation and provision of self descriptions",
                 topics: [
                 "xfsc",
                 "self-description",
@@ -2533,7 +2533,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-self-description-service",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Bietet Schnittstellen zur Verwaltung von Selbstbeschreibungen im XFSC-Portal.",
+                description: "Provides Portal capabilities for self descriptions",
                 topics: [
                 "xfsc",
                 "self-description",
@@ -2564,7 +2564,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-sp-service",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Stellt Funktionen f\u00fcr Service Provider im XFSC-Portal bereit.",
+                description: "Provides SP Functionality for XFSC Portal.",
                 topics: [
                 "xfsc",
                 "service-provider",
@@ -2594,7 +2594,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "portal-user-account-service",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Verwaltet Benutzerkonten und -daten im XFSC-Portal.",
+                description: "Manages user accounts in thr XFSC Portal",
                 topics: [
                 "xfsc",
                 "user",
@@ -2625,7 +2625,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 name: "aas",
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
-                description: "Implementiert Authentifizierungs- und Autorisierungsdienste f\u00fcr das XFSC-Portal.",
+                description: "Implements OAuth2 for SSI",
                 topics: [
                 "xfsc",
                 "authentication",
