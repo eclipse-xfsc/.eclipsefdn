@@ -1911,6 +1911,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -1941,6 +1942,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -1970,6 +1972,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -1999,6 +2002,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -2028,6 +2032,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -2057,6 +2062,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -2086,6 +2092,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -2115,6 +2122,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -2144,6 +2152,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -2173,6 +2182,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -2203,6 +2213,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -2232,6 +2243,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -2261,6 +2273,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -2290,6 +2303,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -2320,6 +2334,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -2349,6 +2364,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -2378,6 +2394,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -2408,6 +2425,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -2438,6 +2456,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -2467,6 +2486,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -2496,6 +2516,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -2526,6 +2547,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -2555,6 +2577,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
+                    enabled: true,
                 default_workflow_permissions: "write"
             },
                 environments: [
@@ -2585,8 +2608,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
-                default_workflow_permissions: "write"
-            },
+                    enabled: true, 
+                    default_workflow_permissions: "write"
+                },
                 environments: [
                 {
                     name: "github-pages",
@@ -2616,8 +2640,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 gh_pages_source_branch: "gh-pages",
                 gh_pages_source_path: "/",
                 workflows: {
-                default_workflow_permissions: "write"
-            },
+                    enabled: true,
+                    default_workflow_permissions: "write"
+                },
                 environments: [
                 {
                     name: "github-pages",
