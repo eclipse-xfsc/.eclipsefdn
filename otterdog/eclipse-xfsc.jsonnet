@@ -11,10 +11,10 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     },
   _repositories+: : [
-       
+
     orgs.newRepo('aries-integration-tests'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Integration tests for Organizational Credential Manager on behave basis (Hyperledger/Credo)",
       topics: [
                 "aries",
@@ -44,7 +44,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('aries-ssi-agent'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Hyperledger SSI Agent on Crede Framework Basis",
       topics: [
                 "aries",
@@ -76,7 +76,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('cam'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "This project contains the reference implementation of the Gaia-X Continuous Automated Monitoring component.",
       topics: [
                 "monitoring",
@@ -104,7 +104,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('cloud-event-provider'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "This library is used for abstracting messaging. The purpose of this library shall be to decapsulate message bus technologies from their usage. So it's doesnt matter if nats, kafka or anything else supported is used.",
       topics: [
                 "cloud-events",
@@ -130,7 +130,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('configuration-service'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "The configuration service provides an simple http endpoint which provides straight forward config map values as json files. It predefines no ingress so you have to declare one in the values.yaml file under ingress section.",
       topics: [
                 "configuration",
@@ -158,7 +158,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('credential-storage-service'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "The Storage Service is a service made for storing credentials and presentations. All content is stored cryptographically protected by a crypto engine",
       topics: [
                 "json-ld",
@@ -192,7 +192,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('crypto-provider-core'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "This package is a library to abstract crypto providers for go. The providers can be loaded during startup by adding the respective module in the local folder.",
       topics: [
                 "jwt",
@@ -225,7 +225,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('crypto-provider-hashicorp-vault-plugin'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "This plugin provides key usage by using the hashicorp vault transit engine.",
       topics: [
                 "jwt",
@@ -261,7 +261,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('crypto-provider-local-plugin'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "This plugin provides key usage by using the internal golang crypto engine.",
       topics: [
                 "jwt",
@@ -294,7 +294,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('crypto-provider-luna-cloud-hsm-plugin'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "This plugin provides key usage by using the luna hsm.",
       topics: [
                 "jwt",
@@ -331,7 +331,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('crypto-provider-service'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Crypto Provider service provides REST APIs for creating Verifiable Credentials (VC) and Verifiable Presentations (VP) in the W3C credential format. It also provides more generic endpoints for signing arbitrary data, for adding cryptographic proofs to existing VC/VP and for fetching public keys necessary for signature verification.",
       topics: [
                 "jwt",
@@ -373,7 +373,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('custom-policy-agent'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "The policy service provides REST API to evaluate/execute OPA policies written in the Rego language.",
       topics: [
                 "rego",
@@ -402,7 +402,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('data-contract-transaction'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Service for Data Contract Exchange",
       topics: [
                 "data-contract",
@@ -427,7 +427,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('data-exchange-logging'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "The XFSC Service Data Exchange Logging Service (GX-DELS) provides evidence that data has been (a) submitted and (b) received and (c) rules and obligations (Data Usage Policies) were enforced or violated",
       topics: [
                 "data-exchange",
@@ -451,9 +451,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 },
             ]
         },
-    orgs.newRepo('deployment'){ 
+    orgs.newRepo('deployment'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "This repo contains helm charts for deployment and integration",
       topics: [
                 "kubernetes",
@@ -480,7 +480,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('dev-ops'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "This repo contains scripts, helm charts, ci templates and docker files",
       topics: [
                 "kubernetes",
@@ -508,7 +508,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('did-core'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Implements the basics of did core specification e.g. did documents for very basic setup of verification methods and it's resolving.",
       topics: [
                 "did",
@@ -562,7 +562,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('docs'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "XFSC Documentation",
       topics: [
                 "architecture",
@@ -589,7 +589,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('email-service'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "This repo contains an simple email service which is integrated in nats",
       topics: [
                 "nats",
@@ -616,7 +616,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('event-log-service'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "This repo contains an nats event logger service.",
       topics: [
                 "nats",
@@ -642,7 +642,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('integration'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Integration Repo for more integrated use cases",
       topics: [
                 "xfsc",
@@ -668,7 +668,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('ipfs-document-manager'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "A service which stores simple documents to IPFS nodes",
       topics: [
                 "ifps",
@@ -695,7 +695,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('landingpage') {
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Repo for the XFSC Landingpage",
       topics: [
                 "landingpage",
@@ -722,7 +722,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('microservice-core-go'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "The microservice core is a small library which contains helper functions and basic setups for golang microservices. It's just a minimum set for messaging, rest and some helpers, but not so mightful as Goa",
       topics: [
                 "gin",
@@ -747,7 +747,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('nats-message-library'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "This library contains default golang message structures and types which are used by the micro services as data contract for communication.",
       topics: [
                 "golang",
@@ -773,7 +773,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('notarization-service'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "The purpose of the Notarization API is to provide an authorization officer a software component to attest given master data and transform it to a digital verifiable credential representation.",
       topics: [
                 "java",
@@ -804,7 +804,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('oid4-vci-authorization-bridge'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "The pre authorization provides the new grant type for the OID4VCI flow to support issuing operations with the pre authorization flow. This bridge can be later configured in the open id configuration under the type urn:ietf:params:oauth:grant-type:pre-authorized_code which is defined in the OID4VCI Spec ",
       topics: [
                 "golang",
@@ -833,7 +833,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('oid4-vci-credential-retrieval-service'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "The pre authorization provides the new grant type for the OID4VCI flow to support issuing operations with the pre authorization flow. This bridge can be later configured in the open id configuration under the type urn:ietf:params:oauth:grant-type:pre-authorized_code which is defined in the OID4VCI Spec ",
       topics: [
                 "golang",
@@ -862,12 +862,12 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('oid4-vci-credential-verification-service'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "OID4VP service",
       topics: [
                 "oid4vp",
                 "ocm-w-stack"
-            ], 
+            ],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -887,12 +887,12 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('oid4-vci-issuer-dummycontentsigner'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "OID4VC Issuer Service Frame dummy plugin (OCM W-Stack)",
       topics: [
                 "oid4vci",
                 "ocm-w-stack"
-            ], 
+            ],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -912,12 +912,12 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('oid4-vci-issuer-service'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "OID4VC Issuer Service Frame (OCM W-Stack)",
       topics: [
                 "oid4vci",
                 "ocm-w-stack"
-            ], 
+            ],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -937,13 +937,13 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('oid4-vci-vp-integration-tests'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "OCM W-Stack integration tests",
       topics: [
                 "oid4vci",
                 "behave",
                 "python"
-            ], 
+            ],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -963,14 +963,14 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('oid4-vci-vp-library'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "This library contains default golang message structures and types which are used by the micro services as data contract for communication. OCM W-Stack",
       topics: [
                 "oid4vci",
                 "oid4vp",
                 "oidc",
                 "ocm-w-stack"
-            ], 
+            ],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -990,13 +990,13 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('oid4-vci-vp-well-known-service'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "The well known service implements the well known issuer metadata part of the OID4VCI protocol. OCM W-Stack",
       topics: [
                 "oid4vci",
                 "oidc",
                 "ocm-w-stack"
-            ], 
+            ],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1016,12 +1016,12 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('orchestration-engine'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "An improved Low-code Orchestration engine for event-driven applications with added enhancements and features optimized for XFSC Toolbox.",
       topics: [
                 "node-red",
                 "orchestration"
-            ], 
+            ],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1041,11 +1041,11 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('orchestrators'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Meta-orchestrator, Terraform and TOSCA orchestrators, IaC templates storage and server, orchestrator IaC examples and documentation.",
       topics: [
                 "terraform"
-            ], 
+            ],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1065,7 +1065,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('org.eclipse.xfsc') {
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       allow_merge_commit: true,
       allow_update_branch: false,
       description: "XFSC",
@@ -1088,12 +1088,12 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('redis-cache-service'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Cache service exposes HTTP interface for working with Redis (TSA)",
       topics: [
                 "opa",
                 "redis"
-            ], 
+            ],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1113,12 +1113,12 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('rego-policies'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Repo for basic rego policies",
       topics: [
                 "rego",
                 "policies"
-            ], 
+            ],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1138,11 +1138,11 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('sd-creation-wizard-api'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Backend service to convert an input shacl shape into JSON form for the frontend service.",
       topics: [
                 "self-description"
-            ], 
+            ],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1166,7 +1166,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       description: "The Gaia-X Framework provides specifications and Open Source Software addressing the key building blocks to create data and infrastructure ecosystems.",
       topics: [
                 "self-description"
-            ], 
+            ],
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -1186,7 +1186,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('sd-jwt-service'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "This service just creates SD-JWT encodings with disclosures and verifies it. Keypair is just a dummy one for signature, dont use it as standard and resign the token always.",
       topics: [
                 "sd-jwt",
@@ -1212,7 +1212,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('sd-schemas'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "This repository contains schema and documentation for developing compliant Gaia-X Credentials (formerly called Gaia-X Self-Descriptions / SDs).",
       topics: [
                 "python",
@@ -1237,7 +1237,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('sd-validation-api'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "API for validating Self Descriptions",
       topics: [
                 "java",
@@ -1289,7 +1289,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('ssi-vdr-core'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Verifiable Data Registry provided an interface for storing Decentralised Identifiers (DID documents).The library uses plugin-based architecture, using it as a dependency requires additional steps.",
       topics: [
                 "ifps",
@@ -1314,7 +1314,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('ssi-vdr-ipfs'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "A plugin implementation of VerifiableDataRegistry interface using Interplanetary Filesystem for storing files. Used by VDR",
       topics: [
                 "ifps",
@@ -1368,7 +1368,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('task-sheduler'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "The task service provides an HTTP interface for executing asynchronous (HTTP) Tasks and Task lists.",
       topics: [
                 "tsa",
@@ -1393,7 +1393,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('train-dns-trust-zone-manager'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "The DNS Zone Management is the component responsible for managing the DNS zone file and used for anchoring the trust framework DID information into the zone file.",
       topics: [
                 "train",
@@ -1420,7 +1420,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('train-integration-tests'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "This repo contains the TRAIN integration tests",
       topics: [
                 "train",
@@ -1477,7 +1477,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('train-trust-framework-manager'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "XFSC Train Trust Framework Manager allows Trust Framework and Trust List Provision. TFM is responsioble for configuring and managing trust frameworks with its corresponding trust lists.",
       topics: [
                 "train",
@@ -1504,7 +1504,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('train-trust-validator'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "TRAIN provides a trust management infrastructure for XFSC. Trusted Content Resolver service allows Trusted Framework Pointers resolution and verification.",
       topics: [
                 "train",
@@ -1531,7 +1531,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('trusted-info-hub'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Information Hub service is responsible for exporting and importing policy data wrapped in Verifiable Credentials and Verifiable Presentations.",
       topics: [
                 "goa",
@@ -1560,7 +1560,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('workshops'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       topics: [
                 "react",
                 "oauth2",
@@ -1598,7 +1598,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('bdd-executor'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "The BDD executor is an behave execution for Gherkin tests",
       topics: [
                 "bdd",
@@ -1655,7 +1655,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('mobile-wallet-integration-tests'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Personal Credential Manager Mobile Integration Tests",
       topics: [
                 "pcm-mobile",
@@ -1680,7 +1680,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('cloud-wallet-integration-tests'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Personal Credential Manager Cloud Integration Tests",
       topics: [
                 "pcm",
@@ -1708,7 +1708,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('cloud-wallet-plugin-backend-template'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Personal Credential Manager Cloud Plugin backend template",
       topics: [
                 "pcm",
@@ -1734,7 +1734,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('cloud-wallet-plugin-core'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Personal Credential Manager Cloud Frontend Plugin core",
       topics: [
                 "pcm",
@@ -1760,7 +1760,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('cloud-wallet-plugin-frontend-template'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Personal Credential Manager Cloud Frontend Plugin template",
       topics: [
                 "pcm",
@@ -1783,10 +1783,10 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
           deployment_branch_policy: "selected",
                 },
             ]
-        },  
+        },
     orgs.newRepo('cloud-wallet-account-service'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Personal Credential Manager Cloud Account Service which manages the accounts for users.",
       topics: [
                 "pcm"
@@ -1811,7 +1811,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         },
     orgs.newRepo('cloud-wallet-integration-tests'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Personal Credential Manager Cloud Integration Tests",
       topics: [
                 "pcm",
@@ -1836,10 +1836,10 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
           deployment_branch_policy: "selected",
                 },
             ]
-        }, 
+        },
     orgs.newRepo('cloud-wallet-plugin-discovery'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Personal Credential Manager Cloud Wallet Plugin Discovery.",
       topics: [
                 "pcm",
@@ -1864,10 +1864,10 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
           deployment_branch_policy: "selected",
                 },
             ]
-        }, 
+        },
     orgs.newRepo('cloud-wallet-web-ui'){
       delete_branch_on_merge: true,
-      web_commit_signoff_required: true, 
+      web_commit_signoff_required: true,
       description: "Personal Credential Manager Cloud UI which implements a demo of a OID4VCI/VP cloud wallet.",
       topics: [
                 "pcm",
@@ -1894,8 +1894,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 },
             ]
         },
-        {
-                name: "portal-admin-service",
+        orgs.newRepo('portal-admin-service'){
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Administrative functions for the portal",
@@ -1924,8 +1923,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-article-service",
+        orgs.newRepo('portal-article-service'){
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Article and content management",
@@ -1955,8 +1953,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-claim-mapping-library",
+        orgs.newRepo('portal-claim-mapping-library') {
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Library for the claims management service",
@@ -1985,8 +1982,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-claim-mapping-service",
+         orgs.newRepo('portal-claim-mapping-service') {
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Claims management service for portal protection",
@@ -2015,8 +2011,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-dashboard-service",
+         orgs.newRepo('portal-dashboard-service') {
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Provides a dashboard for the portal",
@@ -2045,8 +2040,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-demo",
+       orgs.newRepo('portal-demo')  {
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Demo application for external systems.",
@@ -2075,8 +2069,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-did-management-service",
+       orgs.newRepo('portal-did-management-service')  {
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Provides a management of DIDs",
@@ -2105,8 +2098,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-discovery-service",
+         orgs.newRepo('portal-discovery-service') {
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Provides a portal discovery service",
@@ -2135,8 +2127,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-federated-catalogue-management",
+        orgs.newRepo('portal-federated-catalogue-management') {
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Manages the federated catalogue",
@@ -2165,8 +2156,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-infra-mesh",
+       orgs.newRepo('portal-infra-mesh')  {
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Provides service mesh capabilities.",
@@ -2195,8 +2185,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-lcm-service",
+        orgs.newRepo('portal-lcm-service')  {
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Manages lifecyles of federation services.",
@@ -2226,8 +2215,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-onboarding-service",
+          orgs.newRepo('portal-onboarding-service'){
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Supports organisations for portal onboarding",
@@ -2256,8 +2244,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-policy-management-service",
+        orgs.newRepo('portal-policy-management-service'){
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Manages Access Policies for the portal",
@@ -2286,8 +2273,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-e2e-test-automation",
+         orgs.newRepo('portal-e2e-test-automation'){
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "End-to-End Test Automation for the XFSC-Portal.",
@@ -2316,8 +2302,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-frontend",
+          orgs.newRepo('portal-frontend'){
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "A frontend for the xfsc portal",
@@ -2347,8 +2332,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-integration",
+        orgs.newRepo('portal-integration') {
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Service for the integration of xsfc portal",
@@ -2377,8 +2361,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-pre-acceptance-testing",
+        orgs.newRepo('portal-pre-acceptance-testing'){
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "demo environment for xfsc portal",
@@ -2407,8 +2390,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-principal-credential-creation-service",
+         orgs.newRepo('portal-principal-credential-creation-service'){
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Creates digital proofs for the portal",
@@ -2438,8 +2420,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-proof-management-service",
+         orgs.newRepo('portal-proof-management-service'){
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Manages proofs and proof handlings",
@@ -2469,8 +2450,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-resource-provision-demo",
+        orgs.newRepo('portal-resource-provision-demo'){
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Demonstrates a resource provision",
@@ -2499,8 +2479,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-self-description-management",
+         orgs.newRepo('portal-self-description-management'){
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Manages the creation, validation and provision of self descriptions",
@@ -2529,8 +2508,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-self-description-service",
+        orgs.newRepo('portal-self-description-service'){
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Provides Portal capabilities for self descriptions",
@@ -2560,8 +2538,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-sp-service",
+         orgs.newRepo('portal-sp-service'){
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Provides SP Functionality for XFSC Portal.",
@@ -2590,8 +2567,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "portal-user-account-service",
+        orgs.newRepo('portal-user-account-service') {
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Manages user accounts in thr XFSC Portal",
@@ -2621,8 +2597,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 }
             ]
         },
-        {
-                name: "aas",
+        orgs.newRepo('aas') {
                 delete_branch_on_merge: true,
                 web_commit_signoff_required: true,
                 description: "Implements OAuth2 for SSI",
