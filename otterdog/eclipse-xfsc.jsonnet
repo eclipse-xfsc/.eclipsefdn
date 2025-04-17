@@ -1559,6 +1559,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
             ]
         },
     orgs.newRepo('workshops'){
+      homepage="",
       delete_branch_on_merge: true,
       web_commit_signoff_required: true,
       topics: [
