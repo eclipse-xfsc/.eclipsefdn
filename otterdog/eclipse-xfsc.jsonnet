@@ -10,7 +10,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       default_workflow_permissions: "write",
         },
     },
-  _repositories+: : [
+  _repositories+: [
 
     orgs.newRepo('aries-integration-tests'){
       delete_branch_on_merge: true,
