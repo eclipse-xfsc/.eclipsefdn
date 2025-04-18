@@ -2652,6 +2652,35 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                     deployment_branch_policy: "selected"
                 }
             ]
+        },
+        orgs.newRepo('gx-vc-verifier-npm') {
+                delete_branch_on_merge: true,
+                web_commit_signoff_required: true,
+                description: "Nestjs Module for validating GX VCs",
+                topics: [
+                "Gaia-X",
+                "VC",
+                "NestJs",
+                "ed25519"
+            ],
+                allow_merge_commit: true,
+                allow_update_branch: false,
+                gh_pages_build_type: "legacy",
+                gh_pages_source_branch: "gh-pages",
+                gh_pages_source_path: "/",
+                workflows: {
+                    enabled: true,
+                    default_workflow_permissions: "write"
+                },
+                environments: [
+                {
+                    name: "github-pages",
+                    branch_policies: [
+                        "gh-pages"
+                    ],
+                    deployment_branch_policy: "selected"
+                }
+            ]
         }
     ],
 } + {
