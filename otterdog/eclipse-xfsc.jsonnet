@@ -1578,7 +1578,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 "compliance-credential"
             ],
       description: "This repository contains XFSC Workshop material and results",
-      homepage: null,
+      homepage: "",
       allow_merge_commit: true,
       allow_update_branch: false,
       gh_pages_build_type: "legacy",
@@ -2658,9 +2658,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 web_commit_signoff_required: true,
                 description: "Nestjs Module for validating GX VCs",
                 topics: [
-                "Gaia-X",
-                "VC",
-                "NestJs",
+                "gaia-x",
+                "vc",
+                "nestjs",
                 "ed25519"
             ],
                 allow_merge_commit: true,
