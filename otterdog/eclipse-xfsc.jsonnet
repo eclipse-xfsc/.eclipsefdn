@@ -138,7 +138,15 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
 
     },
     orgs.newRepo('orchestrators'){
-
+      gh_pages_build_type: "workflow",
+      environments: [
+        orgs.newEnvironment('github-pages') {
+          branch_policies+: [
+            "main"
+          ],
+          deployment_branch_policy: "selected",
+        },
+      ],
     },
     orgs.newRepo('org.eclipse.xfsc') {
       allow_merge_commit: true,
