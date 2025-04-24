@@ -1502,7 +1502,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 },
             ]
         },
-    orgs.newRepo('train-trust-validator'){
+    orgs.newRepo('train-trusted-content-resolver'){
       delete_branch_on_merge: true,
       web_commit_signoff_required: true,
       description: "TRAIN provides a trust management infrastructure for XFSC. Trusted Content Resolver service allows Trusted Framework Pointers resolution and verification.",
@@ -1510,7 +1510,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
                 "train",
                 "essif",
                 "dnssec",
-                "dns"
+                "dns",
+                "resolver"
             ],
       allow_merge_commit: true,
       allow_update_branch: false,
