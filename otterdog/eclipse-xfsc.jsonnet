@@ -559,13 +559,15 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'dns',
       ],
     },
-    newXFSCRepo('train-trust-validator') {
+    newXFSCRepo('train-trusted-content-resolver') {
+      aliases: ['train-trust-validator'],
       description: 'TRAIN provides a trust management infrastructure for XFSC. Trusted Content Resolver service allows Trusted Framework Pointers resolution and verification.',
       topics: [
         'train',
         'essif',
         'dnssec',
         'dns',
+        'resolver'
       ],
     },
     newXFSCRepo('trusted-info-hub') {
