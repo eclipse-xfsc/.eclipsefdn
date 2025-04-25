@@ -7,7 +7,7 @@ local newXFSCRepo(name) = orgs.newRepo(name) {
   allow_update_branch: false,
   gh_pages_build_type: 'legacy',
   gh_pages_source_branch: 'gh-pages',
-  gh_pages_source_path: '/',
+  gh_pages_source_path: '/docs',
   workflows+: {
     default_workflow_permissions: 'write',
   },
@@ -685,6 +685,17 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'k8s',
         'discovery',
         'kong',
+      ],
+    },
+     newXFSCRepo('cloud-wallet-plugin-kubernetes-operator') {
+      description: 'Personal Credential Manager Cloud Wallet Plugin Kubernetes Operator which observes namespaces for new deployments of plugins.',
+      topics: [
+        'pcm',
+        'kubernetes',
+        'k8s',
+        'namespace',
+        'operator',
+        'golang',
       ],
     },
     newXFSCRepo('cloud-wallet-web-ui') {
