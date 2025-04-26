@@ -11,6 +11,26 @@ local newXFSCRepo(name) = orgs.newRepo(name) {
   workflows+: {
     default_workflow_permissions: 'write',
   },
+  secrets+: [
+         orgs.newOrgSecret('GITLAB_API_TOKEN') {
+             value: "pass:bots/technology.xfsc/gitlab.eclipse.org/api-token",
+         },
+         orgs.newOrgSecret('GPG_KEY_ID') {
+             value: "pass:bots/technology.xfsc/gpg/key_id",
+         },
+         orgs.newOrgSecret('GPG_PASSPHRASE') {
+             value: "pass:bots/technology.xfsc/gpg/passphrase",
+         },
+         orgs.newOrgSecret('GPG_PRIVATE_KEY') {
+             value: "pass:bots/technology.xfsc/gpg/secret-subkeys.asc",
+         },
+         orgs.newRepoSecret('HARBOR_HOST') {
+             value: "pass:bots/technology.xfsc/harbor/host",
+         },
+         orgs.newRepoSecret('HARBOR_CREDENTIALS') {
+             value: "pass:bots/technology.xfsc/harbor/credentials",
+         },
+     ],
   environments: [
     orgs.newEnvironment('github-pages') {
       branch_policies+: [
