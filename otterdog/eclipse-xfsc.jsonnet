@@ -5,6 +5,8 @@ local newXFSCRepo(name) = orgs.newRepo(name) {
   web_commit_signoff_required: true,
   allow_merge_commit: true,
   allow_update_branch: false,
+  private_vulnerability_reporting_enabled: true,
+  code_scanning_default_setup_enabled: true,
   gh_pages_build_type: 'legacy',
   gh_pages_source_branch: 'gh-pages',
   gh_pages_source_path: '/docs',
