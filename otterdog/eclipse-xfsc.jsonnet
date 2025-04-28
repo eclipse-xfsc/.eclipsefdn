@@ -5,6 +5,8 @@ local newXFSCRepo(name) = orgs.newRepo(name) {
   web_commit_signoff_required: true,
   allow_merge_commit: true,
   allow_update_branch: false,
+  private_vulnerability_reporting_enabled: true,
+  code_scanning_default_setup_enabled: true,
   gh_pages_build_type: 'legacy',
   gh_pages_source_branch: 'gh-pages',
   gh_pages_source_path: '/docs',
@@ -65,7 +67,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       ],
     },
     newXFSCRepo('aries-ssi-agent') {
-      description: 'Hyperledger SSI Agent on Crede Framework Basis',
+      description: 'Hyperledger SSI Agent on Credo Framework Basis',
       topics: [
         'aries',
         'ssi',
@@ -997,6 +999,27 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'vc',
         'nestjs',
         'ed25519',
+      ],
+    },
+    newXFSCRepo('crypto-provider-service-java') {
+      description: 'An java implementation of the crypto provider interface.',
+      topics: [
+        'gaia-x',
+        'vc',
+        'java',
+        'ed25519',
+        'maven',
+        'crypto'
+      ],
+    },
+    newXFSCRepo('tsa-integration-tests') {
+      description: 'BDD Driven Tests for tsa',
+      topics: [
+        'bdd',
+        'vc',
+        'python',
+        'ed25519',
+        'tsa'
       ],
     },
     orgs.newRepo('.github') {},
