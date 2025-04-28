@@ -44,10 +44,10 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       orgs.newOrgSecret('GPG_PRIVATE_KEY') {
           value: "pass:bots/technology.xfsc/gpg/secret-subkeys.asc",
       },
-      orgs.newRepoSecret('HARBOR_HOST') {
+      orgs.newOrgSecret('HARBOR_HOST') {
           value: "pass:bots/technology.xfsc/harbor/host",
       },
-      orgs.newRepoSecret('HARBOR_CREDENTIALS') {
+      orgs.newOrgSecret('HARBOR_CREDENTIALS') {
           value: "pass:bots/technology.xfsc/harbor/credentials",
       },
   ],
