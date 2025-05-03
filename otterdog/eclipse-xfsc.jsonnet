@@ -1022,6 +1022,15 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'tsa'
       ],
     },
+    newXFSCRepo('federated-catalogue') {
+      description: 'Catalogue for self descriptions and service offerings.',
+      topics: [
+        'catalogue',
+        'gaia-x',
+        'self-description',
+        'service-offering'
+      ],
+    },
     orgs.newRepo('.github') {},
     newXFSCRepo('did') {
       forked_repository: 'https://github.com/w3c/did'
