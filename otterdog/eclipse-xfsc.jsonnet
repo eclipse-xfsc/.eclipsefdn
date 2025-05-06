@@ -1034,10 +1034,10 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     orgs.newRepo('.github') {},
     newXFSCRepo('did') {
-      forked_repository: 'https://github.com/w3c/did'
+      forked_repository: 'w3c/did'
     },
     newXFSCRepo('didcomm-mediator-service') {
-      forked_repository: 'https://github.com/openwallet-foundation/didcomm-mediator-service'
+      forked_repository: 'openwallet-foundation/didcomm-mediator-service'
     }  
   ],
 }
