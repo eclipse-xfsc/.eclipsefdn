@@ -323,6 +323,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('landingpage') {
       description: 'Repo for the XFSC Landingpage',
+      gh_pages_source_path: '/',
       topics: [
         'landingpage',
         'xfsc',
