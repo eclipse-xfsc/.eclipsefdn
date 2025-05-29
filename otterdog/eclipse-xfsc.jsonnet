@@ -88,6 +88,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'continious',
         'automated',
         'golang',
+        'cam',
       ],
     },
     newXFSCRepo('cloud-event-provider') {
@@ -96,6 +97,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'cloud-events',
         'eventing',
         'golang',
+        'ocm-w-stack',
       ],
     },
     newXFSCRepo('configuration-service') {
@@ -122,6 +124,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'presentation-definition',
         'dif',
         'golang',
+        'ocm-w-stack',
       ],
     },
     newXFSCRepo('crypto-provider-core') {
@@ -276,6 +279,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'didcomm-v2',
         'golang',
         'ssi',
+        'ocm-w-stack',
       ],
     },
     newXFSCRepo('docs') {
@@ -294,6 +298,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'email',
         'smtp',
         'golang',
+        'ocm-w-stack',
       ],
     },
     newXFSCRepo('event-log-service') {
@@ -344,6 +349,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'golang',
         'nats',
         'messaging',
+        'ocm-w-stack',
+        'pcm-cloud',
       ],
     },
     newXFSCRepo('notarization-service') {
@@ -357,6 +364,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'vc',
         'vp',
         'signing',
+        'not',
       ],
     },
     newXFSCRepo('oid4-vci-authorization-bridge') {
@@ -368,6 +376,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'oauth2',
         'oid4vci',
         'pre-authorized-code',
+        'ocm-w-stack',
       ],
     },
     newXFSCRepo('oid4-vci-credential-retrieval-service') {
@@ -379,6 +388,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'oauth2',
         'oid4vci',
         'oidc',
+        'ocm-w-stack',
       ],
     },
     newXFSCRepo('oid4-vci-credential-verification-service') {
@@ -438,6 +448,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       description: 'Meta-orchestrator, Terraform and TOSCA orchestrators, IaC templates storage and server, orchestrator IaC examples and documentation.',
       topics: [
         'terraform',
+        'orchestration',
       ],
     },
     newXFSCRepo('org.eclipse.xfsc') {
@@ -459,6 +470,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       topics: [
         'opa',
         'redis',
+        'tsa',
       ],
     },
     newXFSCRepo('rego-policies') {
@@ -466,18 +478,21 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       topics: [
         'rego',
         'policies',
+        'tsa',
       ],
     },
     newXFSCRepo('sd-creation-wizard-api') {
       description: 'Backend service to convert an input shacl shape into JSON form for the frontend service.',
       topics: [
         'self-description',
+        'catalogue',
       ],
     },
     newXFSCRepo('sd-creation-wizard-frontend') {
       description: 'The Gaia-X Framework provides specifications and Open Source Software addressing the key building blocks to create data and infrastructure ecosystems.',
       topics: [
         'self-description',
+        'catalogue',
       ],
     },
     newXFSCRepo('sd-jwt-service') {
@@ -486,6 +501,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'sd-jwt',
         'open-wallet-foundation',
         'selective-disclosure',
+        'ocm-w-stack',
+        'tsa',
       ],
     },
     newXFSCRepo('sd-schemas') {
@@ -493,6 +510,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       topics: [
         'python',
         'self-description',
+        'catalogue',
       ],
     },
     newXFSCRepo('sd-validation-api') {
@@ -501,6 +519,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'java',
         'rest',
         'self-description',
+        'catalogue',
       ],
     },
     newXFSCRepo('ssi-jwt') {
@@ -534,6 +553,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'bitstring',
         'statuslist-2021',
         'golang',
+        'ocm-w-stack',
       ],
     },
     newXFSCRepo('task-sheduler') {
@@ -655,7 +675,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     newXFSCRepo('cloud-wallet-integration-tests') {
       description: 'Personal Credential Manager Cloud Integration Tests',
       topics: [
-        'pcm',
+        'pcm-cloud',
         'bdd',
         'gherkin',
         'behave',
@@ -665,7 +685,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     newXFSCRepo('cloud-wallet-plugin-backend-template') {
       description: 'Personal Credential Manager Cloud Plugin backend template',
       topics: [
-        'pcm',
+        'pcm-cloud',
         'plugin',
         'golang',
       ],
@@ -673,7 +693,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     newXFSCRepo('cloud-wallet-plugin-core') {
       description: 'Personal Credential Manager Cloud Frontend Plugin core',
       topics: [
-        'pcm',
+        'pcm-cloud',
         'plugin',
         'golang',
       ],
@@ -681,7 +701,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     newXFSCRepo('cloud-wallet-plugin-frontend-template') {
       description: 'Personal Credential Manager Cloud Frontend Plugin template',
       topics: [
-        'pcm',
+        'pcm-cloud',
         'plugin',
         'react',
       ],
@@ -689,13 +709,13 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     newXFSCRepo('cloud-wallet-account-service') {
       description: 'Personal Credential Manager Cloud Account Service which manages the accounts for users.',
       topics: [
-        'pcm',
+        'pcm-cloud',
       ],
     },
     newXFSCRepo('cloud-wallet-integration-tests') {
       description: 'Personal Credential Manager Cloud Integration Tests',
       topics: [
-        'pcm',
+        'pcm-cloud',
         'behave',
         'bdd',
         'gherkin',
@@ -705,7 +725,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     newXFSCRepo('cloud-wallet-plugin-discovery') {
       description: 'Personal Credential Manager Cloud Wallet Plugin Discovery.',
       topics: [
-        'pcm',
+        'pcm-cloud',
         'kubernetes',
         'k8s',
         'discovery',
@@ -715,7 +735,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
      newXFSCRepo('cloud-wallet-plugin-kubernetes-operator') {
       description: 'Personal Credential Manager Cloud Wallet Plugin Kubernetes Operator which observes namespaces for new deployments of plugins.',
       topics: [
-        'pcm',
+        'pcm-cloud',
         'kubernetes',
         'k8s',
         'namespace',
@@ -726,7 +746,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     newXFSCRepo('cloud-wallet-web-ui') {
       description: 'Personal Credential Manager Cloud UI which implements a demo of a OID4VCI/VP cloud wallet.',
       topics: [
-        'pcm',
+        'pcm-cloud',
         'oid4vci',
         'vc',
         'vp',
@@ -763,6 +783,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'mapping',
         'library',
         'microservice',
+        'portal',
       ],
     },
     newXFSCRepo('portal-claim-mapping-service') {
@@ -773,6 +794,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'mapping',
         'microservice',
         'identity',
+        'portal',
       ],
     },
     newXFSCRepo('portal-dashboard-service') {
@@ -783,6 +805,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'portal',
         'analytics',
         'microservice',
+        'portal',
       ],
     },
     newXFSCRepo('portal-demo') {
@@ -793,6 +816,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'test',
         'mock',
         'integration',
+        'portal',
       ],
     },
     newXFSCRepo('portal-did-management-service') {
@@ -803,6 +827,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'identity',
         'ssi',
         'microservice',
+        'portal',
       ],
     },
     newXFSCRepo('portal-discovery-service') {
@@ -813,6 +838,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'search',
         'federation',
         'microservice',
+        'portal',
       ],
     },
     newXFSCRepo('portal-federated-catalogue-management') {
@@ -823,6 +849,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'federation',
         'services',
         'management',
+        'portal',
       ],
     },
     newXFSCRepo('portal-infra-mesh') {
@@ -833,6 +860,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'mesh',
         'network',
         'microservice',
+        'portal',
       ],
     },
     newXFSCRepo('portal-lcm-service') {
@@ -844,6 +872,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'federation',
         'service',
         'microservice',
+        'portal',
       ],
     },
     newXFSCRepo('portal-onboarding-service') {
@@ -854,6 +883,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'organization',
         'identity',
         'microservice',
+        'portal',
       ],
     },
     newXFSCRepo('portal-policy-management-service') {
@@ -864,6 +894,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'access-control',
         'data-sharing',
         'microservice',
+        'portal',
       ],
     },
     newXFSCRepo('portal-e2e-test-automation') {
@@ -874,6 +905,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'automation',
         'e2e',
         'quality-assurance',
+        'portal',
       ],
     },
     newXFSCRepo('portal-frontend') {
@@ -905,6 +937,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'pre-acceptance',
         'qa',
         'automation',
+        'portal',
       ],
     },
     newXFSCRepo('portal-principal-credential-creation-service') {
@@ -916,6 +949,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'principal',
         'identity',
         'microservice',
+        'portal',
       ],
     },
     newXFSCRepo('portal-proof-management-service') {
@@ -927,6 +961,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'identity',
         'verification',
         'microservice',
+        'portal',
       ],
     },
     newXFSCRepo('portal-resource-provision-demo') {
@@ -937,6 +972,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'demo',
         'kubernetes',
         'infrastructure',
+        'portal',
       ],
     },
     newXFSCRepo('portal-self-description-management') {
@@ -947,6 +983,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'compliance',
         'validation',
         'management',
+        'portal',
       ],
     },
     newXFSCRepo('portal-self-description-service') {
@@ -958,6 +995,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'ssi',
         'compliance',
         'microservice',
+        'portal',
       ],
     },
     newXFSCRepo('portal-sp-service') {
@@ -968,6 +1006,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'sp',
         'federation',
         'microservice',
+        'portal',
       ],
     },
     newXFSCRepo('portal-user-account-service') {
@@ -979,6 +1018,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'identity',
         'keycloak',
         'microservice',
+        'portal',
       ],
     },
     newXFSCRepo('aas') {
@@ -991,6 +1031,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'keycloak',
         'security',
         'microservice',
+        'aas',
       ],
     },
     newXFSCRepo('gx-vc-verifier-npm') {
