@@ -1079,6 +1079,18 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('didcomm-mediator-service') {
       forked_repository: 'openwallet-foundation/didcomm-mediator-service'
-    }  
+    } ,
+  newXFSCRepo('facis-fap') {
+      description: 'This repository contains Federation Architecture Patterns developed within FACIS project information .',
+      topics: [
+        'facis',
+        'gaia-x',
+        'self-description',
+        'service-offering',
+        'data-spaces',
+        'onboarding',
+        'ssi'
+      ],
+    }
   ],
 }
