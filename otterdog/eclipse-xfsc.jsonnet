@@ -65,6 +65,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'python',
         'ocm',
       ],
+      code_scanning_default_languages: [
+        'actions',
+      ],
     },
     newXFSCRepo('aries-ssi-agent') {
       description: 'Hyperledger SSI Agent on Credo Framework Basis',
@@ -98,6 +101,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'eventing',
         'golang',
         'ocm-w-stack',
+      ],
+      code_scanning_default_languages: [
+        'actions',
       ],
     },
     newXFSCRepo('configuration-service') {
@@ -217,6 +223,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'x509',
         'tsa',
       ],
+      code_scanning_default_languages: [
+        'actions',
+      ],
     },
     newXFSCRepo('custom-policy-agent') {
       description: 'The policy service provides REST API to evaluate/execute OPA policies written in the Rego language.',
@@ -227,6 +236,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'goa',
         'pdp',
         'tsa',
+      ],
+      code_scanning_default_languages: [
+        'actions',
       ],
     },
     newXFSCRepo('data-contract-transaction') {
@@ -281,6 +293,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'ssi',
         'ocm-w-stack',
       ],
+      code_scanning_default_languages: [
+        'actions',
+      ],
     },
     newXFSCRepo('docs') {
       description: 'XFSC Documentation',
@@ -300,6 +315,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'golang',
         'ocm-w-stack',
       ],
+      code_scanning_default_languages: [
+        'actions',
+      ],
     },
     newXFSCRepo('event-log-service') {
       description: 'This repo contains an nats event logger service.',
@@ -307,6 +325,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'nats',
         'golang',
         'cloud-events',
+      ],
+      code_scanning_default_languages: [
+        'actions',
       ],
     },
     newXFSCRepo('integration') {
@@ -325,6 +346,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'vdr',
         'verifiable-data-registry',
       ],
+      code_scanning_default_languages: [
+        'actions',
+      ],
     },
     newXFSCRepo('landingpage') {
       description: 'Repo for the XFSC Landingpage',
@@ -342,6 +366,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'gin',
         'golang',
       ],
+      code_scanning_default_languages: [
+        'actions',
+      ],
     },
     newXFSCRepo('nats-message-library') {
       description: 'This library contains default golang message structures and types which are used by the micro services as data contract for communication.',
@@ -351,6 +378,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'messaging',
         'ocm-w-stack',
         'pcm-cloud',
+      ],
+      code_scanning_default_languages: [
+        'actions',
       ],
     },
     newXFSCRepo('notarization-service') {
@@ -396,6 +426,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       topics: [
         'oid4vp',
         'ocm-w-stack',
+      ],
+      code_scanning_default_languages: [
+        'actions',
       ],
     },
     newXFSCRepo('oid4-vci-issuer-dummycontentsigner') {
@@ -443,6 +476,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'node-red',
         'orchestration',
       ],
+      code_scanning_default_languages: [
+        'actions',
+      ],
     },
     newXFSCRepo('orchestrators') {
       description: 'Meta-orchestrator, Terraform and TOSCA orchestrators, IaC templates storage and server, orchestrator IaC examples and documentation.',
@@ -453,6 +489,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('org.eclipse.xfsc') {
       description: 'XFSC',
+      code_scanning_default_languages: [
+        'actions',
+      ],
       gh_pages_source_path: '/docs',
       environments: [
         orgs.newEnvironment('github-pages') {
@@ -471,6 +510,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'opa',
         'redis',
         'tsa',
+      ],
+      code_scanning_default_languages: [
+        'actions',
       ],
     },
     newXFSCRepo('rego-policies') {
@@ -493,6 +535,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       topics: [
         'self-description',
         'catalogue',
+      ],
+      code_scanning_default_languages: [
+        'actions',
       ],
     },
     newXFSCRepo('sd-jwt-service') {
@@ -529,6 +574,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'jwt',
         'golang',
       ],
+      code_scanning_default_languages: [
+        'actions',
+      ],
     },
     newXFSCRepo('ssi-vdr-core') {
       description: 'Verifiable Data Registry provided an interface for storing Decentralised Identifiers (DID documents).The library uses plugin-based architecture, using it as a dependency requires additional steps.',
@@ -543,6 +591,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'ifps',
         'vdr',
       ],
+      code_scanning_default_languages: [
+        'actions',
+      ],
     },
     newXFSCRepo('statuslist-service') {
       description: 'The status list service implements the basis for realizing the basic concept of a bit string  lists for OCM W-Stack.',
@@ -554,6 +605,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'statuslist-2021',
         'golang',
         'ocm-w-stack',
+      ],
+      code_scanning_default_languages: [
+        'actions',
       ],
     },
     newXFSCRepo('task-sheduler') {
@@ -711,6 +765,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       topics: [
         'pcm-cloud',
       ],
+      code_scanning_default_languages: [
+        'actions',
+      ],
     },
     newXFSCRepo('cloud-wallet-integration-tests') {
       description: 'Personal Credential Manager Cloud Integration Tests',
@@ -730,6 +787,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'k8s',
         'discovery',
         'kong',
+      ],
+      code_scanning_default_languages: [
+        'actions',
       ],
     },
      newXFSCRepo('cloud-wallet-plugin-kubernetes-operator') {
@@ -763,6 +823,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'microservice',
         'typescript',
       ],
+      code_scanning_default_languages: [
+        'actions',
+      ],
     },
     newXFSCRepo('portal-article-service') {
       description: 'Article and content management',
@@ -773,6 +836,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'portal',
         'service',
         'microservice',
+      ],
+      code_scanning_default_languages: [
+        'actions',
       ],
     },
     newXFSCRepo('portal-claim-mapping-library') {
@@ -805,7 +871,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'portal',
         'analytics',
         'microservice',
-        'portal',
+      ],
+      code_scanning_default_languages: [
+        'actions',
       ],
     },
     newXFSCRepo('portal-demo') {
@@ -828,6 +896,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'ssi',
         'microservice',
         'portal',
+      ],
+      code_scanning_default_languages: [
+        'actions',
       ],
     },
     newXFSCRepo('portal-discovery-service') {
@@ -885,6 +956,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'microservice',
         'portal',
       ],
+      code_scanning_default_languages: [
+        'actions',
+      ],
     },
     newXFSCRepo('portal-policy-management-service') {
       description: 'Manages Access Policies for the portal',
@@ -895,6 +969,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'data-sharing',
         'microservice',
         'portal',
+      ],
+      code_scanning_default_languages: [
+        'actions',
       ],
     },
     newXFSCRepo('portal-e2e-test-automation') {
@@ -951,6 +1028,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'microservice',
         'portal',
       ],
+      code_scanning_default_languages: [
+        'actions',
+      ],
     },
     newXFSCRepo('portal-proof-management-service') {
       description: 'Manages proofs and proof handlings',
@@ -962,6 +1042,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'verification',
         'microservice',
         'portal',
+      ],
+      code_scanning_default_languages: [
+        'actions',
       ],
     },
     newXFSCRepo('portal-resource-provision-demo') {
@@ -1008,6 +1091,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'microservice',
         'portal',
       ],
+      code_scanning_default_languages: [
+        'actions',
+      ],
     },
     newXFSCRepo('portal-user-account-service') {
       description: 'Manages user accounts in thr XFSC Portal',
@@ -1019,6 +1105,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'keycloak',
         'microservice',
         'portal',
+      ],
+      code_scanning_default_languages: [
+        'actions',
       ],
     },
     newXFSCRepo('aas') {
