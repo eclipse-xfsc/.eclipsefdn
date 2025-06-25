@@ -492,6 +492,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       code_scanning_default_languages: [
         'actions',
       ],
+      gh_pages_source_branch: 'main',
       gh_pages_source_path: '/docs',
       environments: [
         orgs.newEnvironment('github-pages') {
