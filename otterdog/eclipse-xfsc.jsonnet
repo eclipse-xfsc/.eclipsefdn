@@ -277,6 +277,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'dev-ops',
         'ci-cd',
       ],
+      code_scanning_default_languages: [
+        'actions',
+      ],
     },
     newXFSCRepo('did-core') {
       description: "Implements the basics of did core specification e.g. did documents for very basic setup of verification methods and it's resolving.",
@@ -361,6 +364,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'xfsc',
         'xfsc-spec',
         'specification',
+      ],
+      code_scanning_default_languages: [
+        'actions',
       ],
     },
     newXFSCRepo('microservice-core-go') {
