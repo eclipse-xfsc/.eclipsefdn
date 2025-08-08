@@ -362,6 +362,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'xfsc-spec',
         'specification',
       ],
+      code_scanning_default_languages: [
+        'actions',
+      ],
     },
     newXFSCRepo('microservice-core-go') {
       description: "The microservice core is a small library which contains helper functions and basic setups for golang microservices. It's just a minimum set for messaging, rest and some helpers, but not so mightful as Goa",
@@ -1172,6 +1175,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('didcomm-mediator-service') {
       forked_repository: 'openwallet-foundation/didcomm-mediator-service'
+    },
+    newXFSCRepo('transmute-universal-resolver-driver') {
+      forked_repository: 'transmute-industries/restricted-resolver'
     }  
   ],
 }
