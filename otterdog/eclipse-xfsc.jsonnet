@@ -1172,6 +1172,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('didcomm-mediator-service') {
       forked_repository: 'openwallet-foundation/didcomm-mediator-service'
-    }  
+    },
+    newXFSCRepo('transmute-universal-resolver-driver') {
+      forked_repository: 'transmute-industries/restricted-resolver'
+    }
   ],
 }
