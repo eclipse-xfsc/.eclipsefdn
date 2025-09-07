@@ -1181,6 +1181,15 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('transmute-universal-resolver-driver') {
       forked_repository: 'transmute-industries/restricted-resolver'
-    }
+    },
+    newXFSCRepo('facis') {},
+    newXFSCRepo('facis-fap1-implementation') {},
+    newXFSCRepo('facis-fap2-implementation') {},
+    newXFSCRepo('facis-aviation-poc') {},
+    newXFSCRepo('trusted-cloud') {},
+    newXFSCRepo('easy-stack-builder') {},
+    newXFSCRepo('easy-stack-builder-catalogue') {},
+    newXFSCRepo('easy-stack-builder-orce') {},
+    newXFSCRepo('aw40-demonstrator') {},
   ],
 }
