@@ -311,6 +311,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'xfsc',
         'xfsc-spec',
       ],
+      code_scanning_default_languages: [
+        'actions',
+      ],
     },
     newXFSCRepo('email-service') {
       description: 'This repo contains an simple email service which is integrated in nats',
@@ -428,6 +431,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'oid4vci',
         'oidc',
         'ocm-w-stack',
+      ],
+      code_scanning_default_languages: [
+        'actions',
       ],
     },
     newXFSCRepo('oid4-vci-credential-verification-service') {
@@ -558,6 +564,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'selective-disclosure',
         'ocm-w-stack',
         'tsa',
+      ],
+      code_scanning_default_languages: [
+        'actions',
       ],
     },
     newXFSCRepo('sd-schemas') {
@@ -822,6 +831,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'vp',
         'oid4vp',
         'react',
+      ],
+      code_scanning_default_languages: [
+        'actions',
       ],
     },
     newXFSCRepo('portal-admin-service') {
@@ -1180,7 +1192,10 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       forked_repository: 'openwallet-foundation/didcomm-mediator-service'
     },
     newXFSCRepo('transmute-universal-resolver-driver') {
-      forked_repository: 'transmute-industries/restricted-resolver'
+      forked_repository: 'transmute-industries/restricted-resolver',
+      code_scanning_default_languages: [
+        'actions',
+      ],
     }
   ],
 }
