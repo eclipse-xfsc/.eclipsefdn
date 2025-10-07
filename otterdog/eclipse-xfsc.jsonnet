@@ -1185,7 +1185,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       ],
     },
     newXFSCRepo('facis') {},
-    newXFSCRepo('facis-fap1-implementation') {},
+    newXFSCRepo('facis-fap') {},
     newXFSCRepo('facis-fap2-implementation') {},
     newXFSCRepo('facis-aviation-poc') {},
     newXFSCRepo('trusted-cloud') {},
