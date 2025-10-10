@@ -1184,6 +1184,9 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'service-offering'
       ],
     },
+    newXFSCRepo('smartdeployment') {},
+    newXFSCRepo('facis-fap') {},
+    newXFSCRepo('facis-poc') {},
     newXFSCRepo('facis') {},
     newXFSCRepo('facis-fap1-implementation') {},
     newXFSCRepo('facis-fap2-implementation') {},
