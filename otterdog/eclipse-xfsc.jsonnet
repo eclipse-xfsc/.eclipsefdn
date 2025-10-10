@@ -494,10 +494,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       topics: [
         'node-red',
         'orchestration',
-      ],
-      code_scanning_default_languages: [
-        'actions',
-      ],
+      ]
     },
     newXFSCRepo('orchestrators') {
       description: 'Meta-orchestrator, Terraform and TOSCA orchestrators, IaC templates storage and server, orchestrator IaC examples and documentation.',
