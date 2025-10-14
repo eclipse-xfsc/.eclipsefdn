@@ -1194,7 +1194,6 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
 
     newXFSCRepo('facis') {},
     newXFSCRepo('facis-fap1-implementation') {
-      code_scanning_default_languages: ["actions"],
     },
     newXFSCRepo('facis-fap2-implementation') {},
     newXFSCRepo('facis-aviation-poc') {},
