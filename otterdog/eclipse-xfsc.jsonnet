@@ -74,6 +74,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('aries-ssi-agent') {
       description: 'Hyperledger SSI Agent on Credo Framework Basis',
+      code_scanning_default_languages: ["actions"],
       topics: [
         'aries',
         'ssi',
@@ -111,6 +112,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('configuration-service') {
       description: 'The configuration service provides an simple http endpoint which provides straight forward config map values as json files. It predefines no ingress so you have to declare one in the values.yaml file under ingress section.',
+      code_scanning_default_languages: ["actions"],
       topics: [
         'configuration',
         'kubernetes',
@@ -479,6 +481,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('oid4-vci-vp-well-known-service') {
       description: 'The well known service implements the well known issuer metadata part of the OID4VCI protocol. OCM W-Stack',
+      code_scanning_default_languages: ["actions"],
       topics: [
         'oid4vci',
         'oidc',
@@ -487,13 +490,11 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('orchestration-engine') {
       description: 'An improved Low-code Orchestration engine for event-driven applications with added enhancements and features optimized for XFSC Toolbox.',
+      code_scanning_default_languages: ["javascript-typescript"],
       topics: [
         'node-red',
         'orchestration',
-      ],
-      code_scanning_default_languages: [
-        'actions',
-      ],
+      ]
     },
     newXFSCRepo('orchestrators') {
       description: 'Meta-orchestrator, Terraform and TOSCA orchestrators, IaC templates storage and server, orchestrator IaC examples and documentation.',
@@ -638,6 +639,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('train-dns-trust-zone-manager') {
       description: 'The DNS Zone Management is the component responsible for managing the DNS zone file and used for anchoring the trust framework DID information into the zone file.',
+      code_scanning_default_languages: ["actions"],
       topics: [
         'train',
         'essif',
@@ -1177,6 +1179,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('federated-catalogue') {
       description: 'Catalogue for self descriptions and service offerings.',
+      code_scanning_default_languages: ["actions"],
       topics: [
         'catalogue',
         'gaia-x',
@@ -1184,8 +1187,15 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'service-offering'
       ],
     },
+
+    newXFSCRepo('smartdeployment') {},
+    newXFSCRepo('facis-fap') {},
+    newXFSCRepo('facis-poc') {},
+
     newXFSCRepo('facis') {},
-    newXFSCRepo('facis-fap1-implementation') {},
+    newXFSCRepo('facis-fap1-implementation') {
+      code_scanning_default_languages: ["actions"],
+    },
     newXFSCRepo('facis-fap2-implementation') {},
     newXFSCRepo('facis-aviation-poc') {},
     newXFSCRepo('trusted-cloud') {},
