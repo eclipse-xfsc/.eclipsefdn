@@ -356,6 +356,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'golang',
         'vdr',
         'verifiable-data-registry',
+        'ocm-w-stack',
       ],
       code_scanning_default_languages: [
         'actions',
@@ -468,6 +469,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'oid4vci',
         'behave',
         'python',
+        'ocm-w-stack',
       ],
     },
     newXFSCRepo('oid4-vci-vp-library') {
@@ -544,14 +546,12 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       description: 'Backend service to convert an input shacl shape into JSON form for the frontend service.',
       topics: [
         'self-description',
-        'catalogue',
       ],
     },
     newXFSCRepo('sd-creation-wizard-frontend') {
       description: 'The Gaia-X Framework provides specifications and Open Source Software addressing the key building blocks to create data and infrastructure ecosystems.',
       topics: [
         'self-description',
-        'catalogue',
       ],
       code_scanning_default_languages: [
         'actions',
@@ -575,7 +575,6 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       topics: [
         'python',
         'self-description',
-        'catalogue',
       ],
     },
     newXFSCRepo('sd-validation-api') {
@@ -584,7 +583,6 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'java',
         'rest',
         'self-description',
-        'catalogue',
       ],
     },
     newXFSCRepo('ssi-jwt') {
@@ -1183,7 +1181,6 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       topics: [
         'catalogue',
         'gaia-x',
-        'self-description',
         'service-offering'
       ],
     },
