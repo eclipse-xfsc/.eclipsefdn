@@ -1188,17 +1188,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     newXFSCRepo('smartdeployment') {},
     newXFSCRepo('facis-fap') {},
     newXFSCRepo('facis-poc') {},
-
     newXFSCRepo('facis') {},
-    newXFSCRepo('facis-fap1-implementation') {
-    },
-    newXFSCRepo('facis-fap2-implementation') {},
-    newXFSCRepo('facis-aviation-poc') {},
-    newXFSCRepo('trusted-cloud') {},
-    newXFSCRepo('easy-stack-builder') {},
-    newXFSCRepo('easy-stack-builder-catalogue') {},
-    newXFSCRepo('easy-stack-builder-orce') {},
-    newXFSCRepo('aw40-demonstrator') {},
     orgs.newRepo('.github') {},
     newXFSCRepo('did') {
       forked_repository: 'w3c/did'
