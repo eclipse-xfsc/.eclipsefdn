@@ -1193,16 +1193,8 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       ],
     },
 
-    newXFSCRepo('smartdeployment') {
-      code_scanning_default_languages: ["javascript-typescript"],
-    },
-    newXFSCRepo('facis-fap') {
-      code_scanning_default_languages: ["javascript-typescript"],
-    },
-    newXFSCRepo('facis-poc') {},
-    newXFSCRepo('facis') {
-      code_scanning_default_languages: ["javascript-typescript"],
-    },
+    newXFSCRepo('smartdeployment') {},
+    newXFSCRepo('facis') {},
     orgs.newRepo('.github') {},
     newXFSCRepo('did') {
       forked_repository: 'w3c/did'
@@ -1215,6 +1207,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       code_scanning_default_languages: [
         'actions',
       ],
-    }
+    },
+    newXFSCRepo('osc-devops-docs') {}
   ],
 }
