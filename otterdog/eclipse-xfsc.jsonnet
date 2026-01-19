@@ -140,6 +140,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('crypto-provider-core') {
       description: 'This package is a library to abstract crypto providers for go. The providers can be loaded during startup by adding the respective module in the local folder.',
+      code_scanning_default_languages: ["actions"],
       topics: [
         'jwt',
         'pem',
@@ -155,6 +156,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('crypto-provider-hashicorp-vault-plugin') {
       description: 'This plugin provides key usage by using the hashicorp vault transit engine.',
+      code_scanning_default_languages: ["actions"],
       topics: [
         'jwt',
         'pem',
@@ -173,6 +175,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('crypto-provider-local-plugin') {
       description: 'This plugin provides key usage by using the internal golang crypto engine.',
+      code_scanning_default_languages: ["actions"],
       topics: [
         'jwt',
         'pem',
@@ -285,6 +288,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('did-core') {
       description: "Implements the basics of did core specification e.g. did documents for very basic setup of verification methods and it's resolving.",
+      code_scanning_default_languages: ["actions"],
       topics: [
         'did',
         'w3c',
@@ -414,6 +418,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('oid4-vci-authorization-bridge') {
       description: 'The pre authorization provides the new grant type for the OID4VCI flow to support issuing operations with the pre authorization flow. This bridge can be later configured in the open id configuration under the type urn:ietf:params:oauth:grant-type:pre-authorized_code which is defined in the OID4VCI Spec ',
+      code_scanning_default_languages: ["actions"],
       topics: [
         'golang',
         'vc',
@@ -451,6 +456,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('oid4-vci-issuer-dummycontentsigner') {
       description: 'OID4VC Issuer Service Frame dummy plugin (OCM W-Stack)',
+      code_scanning_default_languages: ["actions"],
       topics: [
         'oid4vci',
         'ocm-w-stack',
@@ -458,6 +464,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('oid4-vci-issuer-service') {
       description: 'OID4VC Issuer Service Frame (OCM W-Stack)',
+      code_scanning_default_languages: ["actions"],
       topics: [
         'oid4vci',
         'ocm-w-stack',
@@ -474,6 +481,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('oid4-vci-vp-library') {
       description: 'This library contains default golang message structures and types which are used by the micro services as data contract for communication. OCM W-Stack',
+      code_scanning_default_languages: ["actions"],
       topics: [
         'oid4vci',
         'oid4vp',
@@ -1185,10 +1193,16 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       ],
     },
 
-    newXFSCRepo('smartdeployment') {},
-    newXFSCRepo('facis-fap') {},
+    newXFSCRepo('smartdeployment') {
+      code_scanning_default_languages: ["javascript-typescript"],
+    },
+    newXFSCRepo('facis-fap') {
+      code_scanning_default_languages: ["javascript-typescript"],
+    },
     newXFSCRepo('facis-poc') {},
-    newXFSCRepo('facis') {},
+    newXFSCRepo('facis') {
+      code_scanning_default_languages: ["javascript-typescript"],
+    },
     orgs.newRepo('.github') {},
     newXFSCRepo('did') {
       forked_repository: 'w3c/did'
