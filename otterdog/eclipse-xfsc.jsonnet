@@ -1186,8 +1186,6 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
 
     newXFSCRepo('smartdeployment') {},
-    newXFSCRepo('facis-fap') {},
-    newXFSCRepo('facis-poc') {},
     newXFSCRepo('facis') {},
     orgs.newRepo('.github') {},
     newXFSCRepo('did') {
@@ -1201,6 +1199,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       code_scanning_default_languages: [
         'actions',
       ],
-    }
+    },
+    newXFSCRepo('osc-devops-docs') {}
   ],
 }
