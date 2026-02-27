@@ -1212,7 +1212,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
 
     newXFSCRepo('facis-dcs') {
       description: 'Digital contracting services for the FACIS platform.',
-      code_scanning_default_languages: ["actions"],
+      // code_scanning_default_languages: ["actions"],
       topics: [
         'facis',
         'digital-contracting-service',
@@ -1222,7 +1222,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     
     newXFSCRepo('facis-fap-partner-onboarding') {
       description: 'Partner onboarding services for federated ecosystems.',
-      code_scanning_default_languages: ["actions"],
+      // code_scanning_default_languages: ["actions"],
       topics: [
         'facis',
         'fap',
@@ -1232,7 +1232,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
 
     newXFSCRepo('facis-fap-decentralized-catalogue-management') {
       description: 'Enables cross-catalogue discovery of digital services and resources within a federation environment.',
-      code_scanning_default_languages: ["actions"],
+      // code_scanning_default_languages: ["actions"],
       topics: [
         'facis',
         'fap',
@@ -1243,7 +1243,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
 
     newXFSCRepo('facis-fap-iot-ai') {
       description: 'IoT and AI components for collecting, processing and analysing data in the federated ecosystem.',
-      code_scanning_default_languages: ["actions"],
+      // code_scanning_default_languages: ["actions"],
       topics: [
         'facis',
         'fap',
@@ -1254,7 +1254,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
 
     newXFSCRepo('facis-poc-federation-aviation') {
       description: 'Proof of concept for demonstrating secure service federation in the aviation ecosystem.',
-      code_scanning_default_languages: ["actions"],
+      // code_scanning_default_languages: ["actions"],
       topics: [
         'facis',
         'poc',
