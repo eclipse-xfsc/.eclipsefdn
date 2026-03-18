@@ -1261,5 +1261,34 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'aviation'
       ],
     },
+
+  newXFSCRepo('cat-enhnacements') {
+      description: 'The Federated Catalogue under XFSC has been enhanced to align with FACIS requirements, improving the way metadata objects are managed and verified.',
+      topics: [
+        'facis',
+        'catalogue',
+        'enhancements'
+      ],
+    },
+ 
+  newXFSCRepo('cat-integration-tests') {
+      description: 'BDD test suite for catalogue enhancements.',
+      topics: [
+        'facis',
+        'catalogue',
+        'enhancements',
+        'bdd'
+      ],
+    },
+
+  newXFSCRepo('facis-fap-principal-credential-issuance') {
+      description: 'The FAP on Principal credential issuance (PCI) help organizations create and give out digital credentials to their employees in a safe and simple way. ',
+      topics: [
+        'facis',
+        'fap',
+        'pci',
+        'credential'
+      ],
+    },
   ],
 }
