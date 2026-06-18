@@ -55,6 +55,12 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       orgs.newOrgSecret('HARBOR_CREDENTIALS') {
           value: "pass:bots/technology.xfsc/harbor/credentials",
       },
+      orgs.newOrgSecret('COSIGN_PUB_KEY') {
+          value: "pass:bots/technology.xfsc/github.com/COSIGN_PUB_KEY",
+      },
+      orgs.newOrgSecret('COSIGN_PRIV_KEY') {
+          value: "pass:bots/technology.xfsc/github.com/COSIGN_PRIV_KEY",
+      },
   ],
   _repositories+: [
     newXFSCRepo('aries-integration-tests') {
