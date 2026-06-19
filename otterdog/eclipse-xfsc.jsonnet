@@ -1290,5 +1290,23 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'credential'
       ],
     },
+
+  newXFSCRepo('kubernetes-operator') {
+      description: 'This operator manages the xfsc components and their configurations within k8s.',
+      topics: [
+        'deployment',
+        'k8s',
+        'operator',
+        'admission'
+      ],
+    },
+    newXFSCRepo('orce-cluster-admin') {
+      description: 'This tool is used by orce to deploy to remote clusters helm charts and manifests.',
+      topics: [
+        'deployment',
+        'k8s',
+        'orce'
+      ],
+    },
   ],
 }
