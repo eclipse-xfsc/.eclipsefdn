@@ -1308,5 +1308,13 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'orce'
       ],
     },
+    newXFSCRepo('tenant-management') {
+      description: 'This tool is used to management tenants for xfsc products',
+      topics: [
+        'deployment',
+        'k8s',
+        'tenants'
+      ],
+    },
   ],
 }
