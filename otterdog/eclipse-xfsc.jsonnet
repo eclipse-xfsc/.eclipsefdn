@@ -1200,10 +1200,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
 
     newXFSCRepo('smartdeployment') {},
-    newXFSCRepo('facis') {
-      gh_pages_source_path:"dashboard", 
-      gh_pages_source_branch: 'main'
-    },
+    newXFSCRepo('facis') {},
     orgs.newRepo('.github') {},
     newXFSCRepo('did') {
       forked_repository: 'w3c/did'
