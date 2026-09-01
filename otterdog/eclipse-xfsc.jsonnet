@@ -1322,5 +1322,12 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'orce'
       ],
     },
+    newXFSCRepo('facis-ai-challenge') {
+      description: 'Hands-on FACIS challenge: build a five-agent aviation maintenance workflow with the tool of your choice, one scenario, synthetic fleet data, an offline validator, no cloud required. ContainerDays / AI Context, Hamburg 2026.',
+      topics: [
+        'facis',
+        'ai'
+      ],
+    },
   ],
 }
