@@ -1329,5 +1329,7 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
         'ai'
       ],
     },
+    newXFSCRepo('facis-zero-trust-demonstrator') {
+    },
   ],
 }
