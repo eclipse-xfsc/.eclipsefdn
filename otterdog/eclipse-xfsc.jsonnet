@@ -436,12 +436,10 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       ],
     },
     newXFSCRepo('oid4-vci-credential-retrieval-service') {
-      description: 'The pre authorization provides the new grant type for the OID4VCI flow to support issuing operations with the pre authorization flow. This bridge can be later configured in the open id configuration under the type urn:ietf:params:oauth:grant-type:pre-authorized_code which is defined in the OID4VCI Spec ',
+      description: 'The credential retrieval service is a service which can execute the OID4VCI protocol on client side to retrieve a credential. This service can be feeded by nats, to execute the steps of the protocol by using the given offering link.',
       topics: [
         'golang',
         'vc',
-        'vp',
-        'oauth2',
         'oid4vci',
         'oidc',
         'ocm-w-stack',
