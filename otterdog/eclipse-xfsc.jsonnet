@@ -1361,6 +1361,37 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
       ],
     },
     newXFSCRepo('facis-zero-trust-demonstrator') {
+      rulesets: [
+        orgs.newRepoRuleset('main') {
+          include_refs+: [
+            '~DEFAULT_BRANCH',
+          ],
+          required_pull_request+: {
+            required_approving_review_count: 1,
+            dismisses_stale_reviews: true,
+          },
+          required_status_checks+: {
+            status_checks+: [
+              'Workflow hygiene',
+              'Licence gate',
+              'Go lint',
+              'Image build and scan',
+              'Chart lint and render',
+            ],
+          },
+        },
+      ],
+      environments+: [
+        orgs.newEnvironment('release') {
+          deployment_branch_policy: 'selected',
+          branch_policies+: [
+            'main',
+            'candidate/*',
+            'fixtures/*',
+            'tag:v*',
+          ],
+        },
+      ],
     },
   ],
 }
