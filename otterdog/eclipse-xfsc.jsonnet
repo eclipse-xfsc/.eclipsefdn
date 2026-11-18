@@ -1361,5 +1361,14 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
     newXFSCRepo('facis-zero-trust-demonstrator') {
     },
+
+    newXFSCRepo('facis-poc-convoy-demonstrator') {
+      description: 'A FACIS demonstrator showcasing trusted, cross-OEM vehicle coordination through federated identity, verifiable credentials, and secure, fail-safe convoy orchestration using the XFSC framework.',
+      topics: [
+        'facis',
+        'poc',
+        'convoy-demonstrator',
+      ],
+    },
   ],
 }
