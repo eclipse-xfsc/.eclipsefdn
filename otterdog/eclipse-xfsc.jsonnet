@@ -1294,6 +1294,17 @@ orgs.newOrg('technology.xfsc', 'eclipse-xfsc') {
     },
 
   newXFSCRepo('facis-fap-principal-credential-issuance') {
+      gh_pages_build_type: 'workflow',
+      environments: [
+        orgs.newEnvironment('github-pages') {
+          deployment_branch_policy: 'selected',
+          branch_policies: [
+            'gh-pages',
+            'main',
+            'tag:v*',
+          ],
+        },
+      ],
       allow_merge_commit: true,
       allow_squash_merge: false,
       allow_rebase_merge: false,
